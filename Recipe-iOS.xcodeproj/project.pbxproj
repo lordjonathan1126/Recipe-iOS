@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,19 @@
 		FC416B5D25EBAB9C00410C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC416B5C25EBAB9C00410C52 /* Assets.xcassets */; };
 		FC416B6025EBAB9C00410C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC416B5F25EBAB9C00410C52 /* Preview Assets.xcassets */; };
 		FC416B6325EBAB9C00410C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC416B6125EBAB9C00410C52 /* LaunchScreen.storyboard */; };
+		FC416B6F25EBABB300410C52 /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC416B6E25EBABB300410C52 /* food.jpg */; };
+		FC416B7425EBAC1700410C52 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC416B7325EBAC1700410C52 /* IQKeyboardManagerSwift */; };
+		FC416B7725EBAC5F00410C52 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B7625EBAC5F00410C52 /* Webservice.swift */; };
+		FC416B7A25EBAC7C00410C52 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B7925EBAC7C00410C52 /* Recipe.swift */; };
+		FC416B7D25EBAC9500410C52 /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B7C25EBAC9500410C52 /* UrlImageModel.swift */; };
+		FC416B8025EBACBD00410C52 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B7F25EBACBD00410C52 /* CoreDataManager.swift */; };
+		FC416B8425EBACF500410C52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B8325EBACF500410C52 /* HomeView.swift */; };
+		FC416B8725EBAD0A00410C52 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B8625EBAD0A00410C52 /* SearchBarView.swift */; };
+		FC416B8A25EBAD2600410C52 /* RecipeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B8925EBAD2600410C52 /* RecipeCellView.swift */; };
+		FC416B8D25EBAD3F00410C52 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B8C25EBAD3F00410C52 /* DetailView.swift */; };
+		FC416B9025EBAD5F00410C52 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B8F25EBAD5F00410C52 /* AddItemView.swift */; };
+		FC416B9325EBAD7A00410C52 /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B9225EBAD7A00410C52 /* UrlImageView.swift */; };
+		FC416B9625EBAD9500410C52 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC416B9525EBAD9500410C52 /* SavedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		FC416B5F25EBAB9C00410C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC416B6225EBAB9C00410C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC416B6425EBAB9C00410C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC416B6E25EBABB300410C52 /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		FC416B7625EBAC5F00410C52 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		FC416B7925EBAC7C00410C52 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		FC416B7C25EBAC9500410C52 /* UrlImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
+		FC416B7F25EBACBD00410C52 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		FC416B8325EBACF500410C52 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FC416B8625EBAD0A00410C52 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		FC416B8925EBAD2600410C52 /* RecipeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCellView.swift; sourceTree = "<group>"; };
+		FC416B8C25EBAD3F00410C52 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FC416B8F25EBAD5F00410C52 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		FC416B9225EBAD7A00410C52 /* UrlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		FC416B9525EBAD9500410C52 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		FC416B9B25EBAF9F00410C52 /* Recipe-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Recipe-iOS.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC416B7425EBAC1700410C52 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +85,14 @@
 		FC416B5225EBAB9A00410C52 /* Recipe-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FC416B5325EBAB9A00410C52 /* AppDelegate.swift */,
-				FC416B5525EBAB9A00410C52 /* SceneDelegate.swift */,
-				FC416B5725EBAB9A00410C52 /* ContentView.swift */,
+				FC416B9B25EBAF9F00410C52 /* Recipe-iOS.entitlements */,
+				FC416B7125EBABC800410C52 /* Model */,
+				FC416B8225EBACDC00410C52 /* View */,
 				FC416B5C25EBAB9C00410C52 /* Assets.xcassets */,
 				FC416B6125EBAB9C00410C52 /* LaunchScreen.storyboard */,
 				FC416B6425EBAB9C00410C52 /* Info.plist */,
-				FC416B5925EBAB9A00410C52 /* Recipe_iOS.xcdatamodeld */,
+				FC416B6B25EBABA400410C52 /* Delegates */,
+				FC416B6E25EBABB300410C52 /* food.jpg */,
 				FC416B5E25EBAB9C00410C52 /* Preview Content */,
 			);
 			path = "Recipe-iOS";
@@ -76,6 +104,42 @@
 				FC416B5F25EBAB9C00410C52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC416B6B25EBABA400410C52 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FC416B5325EBAB9A00410C52 /* AppDelegate.swift */,
+				FC416B5525EBAB9A00410C52 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FC416B7125EBABC800410C52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC416B5925EBAB9A00410C52 /* Recipe_iOS.xcdatamodeld */,
+				FC416B7625EBAC5F00410C52 /* Webservice.swift */,
+				FC416B7925EBAC7C00410C52 /* Recipe.swift */,
+				FC416B7C25EBAC9500410C52 /* UrlImageModel.swift */,
+				FC416B7F25EBACBD00410C52 /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC416B8225EBACDC00410C52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC416B5725EBAB9A00410C52 /* ContentView.swift */,
+				FC416B8325EBACF500410C52 /* HomeView.swift */,
+				FC416B8625EBAD0A00410C52 /* SearchBarView.swift */,
+				FC416B8925EBAD2600410C52 /* RecipeCellView.swift */,
+				FC416B8C25EBAD3F00410C52 /* DetailView.swift */,
+				FC416B8F25EBAD5F00410C52 /* AddItemView.swift */,
+				FC416B9225EBAD7A00410C52 /* UrlImageView.swift */,
+				FC416B9525EBAD9500410C52 /* SavedView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +158,9 @@
 			dependencies = (
 			);
 			name = "Recipe-iOS";
+			packageProductDependencies = (
+				FC416B7325EBAC1700410C52 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Recipe-iOS";
 			productReference = FC416B5025EBAB9A00410C52 /* Recipe-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +188,9 @@
 				Base,
 			);
 			mainGroup = FC416B4725EBAB9A00410C52;
+			packageReferences = (
+				FC416B7225EBAC1600410C52 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = FC416B5125EBAB9A00410C52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +208,7 @@
 				FC416B6325EBAB9C00410C52 /* LaunchScreen.storyboard in Resources */,
 				FC416B6025EBAB9C00410C52 /* Preview Assets.xcassets in Resources */,
 				FC416B5D25EBAB9C00410C52 /* Assets.xcassets in Resources */,
+				FC416B6F25EBABB300410C52 /* food.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC416B8725EBAD0A00410C52 /* SearchBarView.swift in Sources */,
+				FC416B8D25EBAD3F00410C52 /* DetailView.swift in Sources */,
+				FC416B8425EBACF500410C52 /* HomeView.swift in Sources */,
 				FC416B5425EBAB9A00410C52 /* AppDelegate.swift in Sources */,
+				FC416B9025EBAD5F00410C52 /* AddItemView.swift in Sources */,
 				FC416B5B25EBAB9A00410C52 /* Recipe_iOS.xcdatamodeld in Sources */,
+				FC416B9325EBAD7A00410C52 /* UrlImageView.swift in Sources */,
 				FC416B5625EBAB9A00410C52 /* SceneDelegate.swift in Sources */,
+				FC416B7D25EBAC9500410C52 /* UrlImageModel.swift in Sources */,
+				FC416B8A25EBAD2600410C52 /* RecipeCellView.swift in Sources */,
+				FC416B7A25EBAC7C00410C52 /* Recipe.swift in Sources */,
+				FC416B9625EBAD9500410C52 /* SavedView.swift in Sources */,
+				FC416B7725EBAC5F00410C52 /* Webservice.swift in Sources */,
+				FC416B8025EBACBD00410C52 /* CoreDataManager.swift in Sources */,
 				FC416B5825EBAB9A00410C52 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,17 +372,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Recipe-iOS/Recipe-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Recipe-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 65PN49W5R6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Recipe-iOS/Info.plist";
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JonathanNg.Recipe-app.Recipe-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JonathanNg.Recipe-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,17 +396,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Recipe-iOS/Recipe-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Recipe-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 65PN49W5R6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Recipe-iOS/Info.plist";
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JonathanNg.Recipe-app.Recipe-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JonathanNg.Recipe-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -349,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC416B7225EBAC1600410C52 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC416B7325EBAC1700410C52 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC416B7225EBAC1600410C52 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FC416B5925EBAB9A00410C52 /* Recipe_iOS.xcdatamodeld */ = {
